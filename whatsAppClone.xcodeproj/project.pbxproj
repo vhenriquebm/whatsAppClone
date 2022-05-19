@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42D9BC8D2836BCD400146064 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D9BC8C2836BCD400146064 /* RegisterViewController.swift */; };
+		42D9BC8F2836D52E00146064 /* ChatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D9BC8E2836D52E00146064 /* ChatsViewController.swift */; };
+		42D9BC912836D6D300146064 /* ChatsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D9BC902836D6D300146064 /* ChatsTableViewCell.swift */; };
 		42F405432836AE620099FC43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F405422836AE620099FC43 /* AppDelegate.swift */; };
 		42F405452836AE620099FC43 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F405442836AE620099FC43 /* SceneDelegate.swift */; };
 		42F405472836AE620099FC43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F405462836AE620099FC43 /* ViewController.swift */; };
 		42F4054A2836AE620099FC43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42F405482836AE620099FC43 /* Main.storyboard */; };
 		42F4054C2836AE630099FC43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42F4054B2836AE630099FC43 /* Assets.xcassets */; };
 		42F4054F2836AE630099FC43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42F4054D2836AE630099FC43 /* LaunchScreen.storyboard */; };
+		42F405572836B8080099FC43 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42F405562836B8070099FC43 /* GoogleService-Info.plist */; };
+		93EF1D387A079CF9101B6763 /* Pods_whatsAppClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05544FC23431C550227B3B0 /* Pods_whatsAppClone.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		42D9BC8C2836BCD400146064 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		42D9BC8E2836D52E00146064 /* ChatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsViewController.swift; sourceTree = "<group>"; };
+		42D9BC902836D6D300146064 /* ChatsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsTableViewCell.swift; sourceTree = "<group>"; };
 		42F4053F2836AE620099FC43 /* whatsAppClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = whatsAppClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42F405422836AE620099FC43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42F405442836AE620099FC43 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +32,10 @@
 		42F4054B2836AE630099FC43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42F4054E2836AE630099FC43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42F405502836AE630099FC43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42F405562836B8070099FC43 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		77282158D07CA4C1B3DFA592 /* Pods-whatsAppClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-whatsAppClone.release.xcconfig"; path = "Target Support Files/Pods-whatsAppClone/Pods-whatsAppClone.release.xcconfig"; sourceTree = "<group>"; };
+		A81F172731C9588A8F5DB169 /* Pods-whatsAppClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-whatsAppClone.debug.xcconfig"; path = "Target Support Files/Pods-whatsAppClone/Pods-whatsAppClone.debug.xcconfig"; sourceTree = "<group>"; };
+		D05544FC23431C550227B3B0 /* Pods_whatsAppClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_whatsAppClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93EF1D387A079CF9101B6763 /* Pods_whatsAppClone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +55,8 @@
 			children = (
 				42F405412836AE620099FC43 /* whatsAppClone */,
 				42F405402836AE620099FC43 /* Products */,
+				4613A4EB4F4543225599B34F /* Pods */,
+				7B033A313C54AD7B33E7998D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,10 +76,31 @@
 				42F405462836AE620099FC43 /* ViewController.swift */,
 				42F405482836AE620099FC43 /* Main.storyboard */,
 				42F4054B2836AE630099FC43 /* Assets.xcassets */,
+				42F405562836B8070099FC43 /* GoogleService-Info.plist */,
 				42F4054D2836AE630099FC43 /* LaunchScreen.storyboard */,
 				42F405502836AE630099FC43 /* Info.plist */,
+				42D9BC8C2836BCD400146064 /* RegisterViewController.swift */,
+				42D9BC8E2836D52E00146064 /* ChatsViewController.swift */,
+				42D9BC902836D6D300146064 /* ChatsTableViewCell.swift */,
 			);
 			path = whatsAppClone;
+			sourceTree = "<group>";
+		};
+		4613A4EB4F4543225599B34F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A81F172731C9588A8F5DB169 /* Pods-whatsAppClone.debug.xcconfig */,
+				77282158D07CA4C1B3DFA592 /* Pods-whatsAppClone.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7B033A313C54AD7B33E7998D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D05544FC23431C550227B3B0 /* Pods_whatsAppClone.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42F405532836AE630099FC43 /* Build configuration list for PBXNativeTarget "whatsAppClone" */;
 			buildPhases = (
+				AD6AB3F30353F74814479463 /* [CP] Check Pods Manifest.lock */,
 				42F4053B2836AE620099FC43 /* Sources */,
 				42F4053C2836AE620099FC43 /* Frameworks */,
 				42F4053D2836AE620099FC43 /* Resources */,
+				15FB103D99D0534FEFF9C411 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42F4054F2836AE630099FC43 /* LaunchScreen.storyboard in Resources */,
+				42F405572836B8080099FC43 /* GoogleService-Info.plist in Resources */,
 				42F4054C2836AE630099FC43 /* Assets.xcassets in Resources */,
 				42F4054A2836AE620099FC43 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +172,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		15FB103D99D0534FEFF9C411 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-whatsAppClone/Pods-whatsAppClone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-whatsAppClone/Pods-whatsAppClone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-whatsAppClone/Pods-whatsAppClone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD6AB3F30353F74814479463 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-whatsAppClone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		42F4053B2836AE620099FC43 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				42F405472836AE620099FC43 /* ViewController.swift in Sources */,
+				42D9BC912836D6D300146064 /* ChatsTableViewCell.swift in Sources */,
 				42F405432836AE620099FC43 /* AppDelegate.swift in Sources */,
+				42D9BC8F2836D52E00146064 /* ChatsViewController.swift in Sources */,
 				42F405452836AE620099FC43 /* SceneDelegate.swift in Sources */,
+				42D9BC8D2836BCD400146064 /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +368,7 @@
 		};
 		42F405542836AE630099FC43 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A81F172731C9588A8F5DB169 /* Pods-whatsAppClone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +397,7 @@
 		};
 		42F405552836AE630099FC43 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77282158D07CA4C1B3DFA592 /* Pods-whatsAppClone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
